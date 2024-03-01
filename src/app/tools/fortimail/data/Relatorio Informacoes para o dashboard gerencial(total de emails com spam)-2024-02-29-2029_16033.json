@@ -1,0 +1,215 @@
+{
+    "fortianalyzer-report": {
+        "name": "Relatorio Informacoes para o dashboard gerencial(total de emails com spam)",
+        "charts": [
+            {
+                "type": "table",
+                "name": "QUANTIDADE_TOTAL_SPAM_DASHBOARD",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "quantidadeSpam",
+                                "value": "137.674"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "name": "TOTAL DE VIRUS POR PERIODO",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "FortiSandbox:  uri"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "61"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "67.78%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "JS\/Phish.EZH!tr"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "6"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "6.67%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "FortiSandbox:  uri, FortiSandbox:  uri"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "6"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "6.67%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "MSIL\/GenericKDS.61009645!tr"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "6"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "6.67%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "PDF\/Phishing.FRLK!tr"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "3"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "3.33%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "EML\/Phishing.AB74!tr"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "2"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.22%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "FortiSandbox:  hash(7d3e7e668a3561c037354e36e6fcdd43bb134eaa5014168aeb6ee06b853280ea)"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "2"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.22%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "FortiSandbox:  hash(7d951d3b8db64837c5aa7cc8f85e81a093d42c96c8bc0bb6ff5d178346878501)"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "2"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.22%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "FortiSandbox:  hash(e891b290909e243d088953475a48736d7a511d9c69ba472047c8fd57c4f30fe4), FortiSandbox:  hash(67099da183eb929e6c1b8"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "1"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "1.11%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "HTML\/Phishing.F75C!phish"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "1"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "1.11%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "cols": [
+                            {
+                                "name": "Column Title 1",
+                                "value": "Total"
+                            },
+                            {
+                                "name": "Aggregate Title 1",
+                                "value": "90"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "100.00%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
