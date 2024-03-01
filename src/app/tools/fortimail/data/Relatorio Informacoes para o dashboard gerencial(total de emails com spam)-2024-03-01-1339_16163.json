@@ -1,0 +1,513 @@
+{
+    "fortianalyzer-report": {
+        "name": "Relatorio Informacoes para o dashboard gerencial(total de emails com spam)",
+        "charts": [
+            {
+                "type": "table",
+                "name": "QUANTIDADE_TOTAL_SPAM_DASHBOARD",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "quantidadeSpam",
+                                "value": "483008"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "name": "TOTAL DE VIRUS POR PERIODO",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  uri"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "311"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "51.15%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  uri, FortiSandbox:  uri"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "37"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "6.09%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "JS\/Agent.7CC2!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "31"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "5.10%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "HTML\/Phish.400!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "20"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "3.29%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "HTML\/RedirBA.INF!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "19"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "3.12%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "EML\/Phishing.5B59!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "18"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.96%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(01dea3605884994dddbc70ce88bcfe8b9453321e5bdee4f7a081dcb907eaa4b4)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "14"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.30%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "MSIL\/GenericKDS.61009645!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "13"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.14%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "NSIS\/Injector.C9R2!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "10"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "1.64%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "HTML\/Redirect.9D43!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "9"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "1.48%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "HTML\/Phishing.AZW!tr, HTML\/Phishing.AZW!tr, HTML\/Phishing.AZW!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "8"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "1.32%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "JS\/Phish.EZH!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "6"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.99%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "HTML\/Micro.GS!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "5"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.82%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(e33ff101614db5ecbd007243bbc926b817c2f6db4c5d99fd90b90f265ad83c03)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "5"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.82%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(5f9cf34d20d0dfbc3cab7a69423bded9c627dbe99d142483561488c672689875)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "5"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.82%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(fb8618d344e3e52814b5451852313be1c3140445aa9be8215d6801ac59c6dd0d)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "5"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.82%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "17",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(f6ac2672f0dce32f358346944c7f8129a5529a749541e8b29d8300ed3ebd9fa6)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "4"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.66%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "18",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(01bc1ac0abf1c4fa72fa14f56ed05af55dcd9a60af99beaab06735a42a360159)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "4"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.66%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "19",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "HTML\/Phishing.AZW!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "4"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.66%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "20",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(46f3a5cc5e145f3bf7afcdbc683092190a7e8d2eb24503159c69b187c32a8388)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "3"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "0.49%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "21",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "Others"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "77"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "12.66%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "22",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "Total"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "608"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "100.00%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "name": "Quantidade de emails",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "2024-01-09"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": "1734"
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "2749"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "3.08%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "2024-01-08"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": "1770"
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "2548"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.86%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "2024-01-24"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": "1696"
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "2518"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.83%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "Others"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": " "
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "81305"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "91.23%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "Total"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": " "
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "89120"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "100.00%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

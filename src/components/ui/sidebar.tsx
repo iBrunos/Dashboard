@@ -3,13 +3,11 @@ import React from 'react'
 import { Nav } from './nav'
 import {
     ChevronRight,
-    LayoutDashboard,
     Mail,
     ShieldCheck,
     Settings,
     ShieldAlert,
     Cloud,
-    ShoppingCart,
     UsersRound,
 } from "lucide-react"
 import { Button } from './button'
@@ -79,12 +77,6 @@ export default function Sidebar({ }: Props) {
                             title: "Users",
                             href: "/users",
                             icon: UsersRound,
-                            variant: "ghost",
-                        },
-                        {
-                            title: "Orders",
-                            href: "/orders",
-                            icon: ShoppingCart,
                             variant: "ghost",
                         },
                         {

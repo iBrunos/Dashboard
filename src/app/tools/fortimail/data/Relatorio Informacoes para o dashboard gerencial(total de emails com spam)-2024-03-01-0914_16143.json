@@ -1,0 +1,198 @@
+{
+    "fortianalyzer-report": {
+        "name": "Relatorio Informacoes para o dashboard gerencial(total de emails com spam)",
+        "charts": [
+            {
+                "type": "table",
+                "name": "QUANTIDADE_TOTAL_SPAM_DASHBOARD",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "quantidadeSpam",
+                                "value": "208740"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "name": "TOTAL DE VIRUS POR PERIODO",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  uri"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "58"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "71.60%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  uri, FortiSandbox:  uri"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "6"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "7.41%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "JS\/Phish.EZH!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "6"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "7.41%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "JS\/Kryptik.AMG!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "3"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "3.70%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(7d3e7e668a3561c037354e36e6fcdd43bb134eaa5014168aeb6ee06b853280ea)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "2"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.47%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(7d951d3b8db64837c5aa7cc8f85e81a093d42c96c8bc0bb6ff5d178346878501)"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "2"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.47%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "EML\/Phishing.AB74!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "2"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "2.47%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "PDF\/Phishing.FRLK!tr"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "1"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "1.23%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  hash(e891b290909e243d088953475a48736d7a511d9c69ba472047c8fd57c4f30fe4), FortiSandbox:  hash(67099da183eb929e6c1b8"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "1"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "1.23%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "Total"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "81"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "100.00%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

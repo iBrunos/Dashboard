@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 export type CardProps = {
   label: string;
   icon: LucideIcon;
-  amount: number;
+  amount: number | string;
   description: string;
 };
 

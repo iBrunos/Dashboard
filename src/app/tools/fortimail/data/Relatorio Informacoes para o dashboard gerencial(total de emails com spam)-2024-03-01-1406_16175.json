@@ -1,0 +1,193 @@
+{
+    "fortianalyzer-report": {
+        "name": "Relatorio Informacoes para o dashboard gerencial(total de emails com spam)",
+        "charts": [
+            {
+                "type": "table",
+                "name": "QUANTIDADE_TOTAL_SPAM_DASHBOARD",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "quantidadeSpam",
+                                "value": "517282"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "name": "Quantidade de emails recebidos",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "2024-01-15"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": "2161"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "3.01%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "Others"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": "69697"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "96.99%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "Total"
+                            },
+                            {
+                                "name": "countIn",
+                                "value": "71858"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "100.00%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "name": "TOTAL DE VIRUS POR PERIODO",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "FortiSandbox:  uri"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "312"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "51.23%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "Others"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "297"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "48.77%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "cols": [
+                            {
+                                "name": "Title",
+                                "value": "Total"
+                            },
+                            {
+                                "name": "amount",
+                                "value": "609"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "100.00%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "table",
+                "name": "Quantidade de emails enviados",
+                "rows": [
+                    {
+                        "id": "1",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "2024-01-09"
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "2749"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "3.08%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "Others"
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "86406"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "96.92%"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "cols": [
+                            {
+                                "name": "date",
+                                "value": "Total"
+                            },
+                            {
+                                "name": "countOut",
+                                "value": "89155"
+                            },
+                            {
+                                "name": "% do Total",
+                                "value": "100.00%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
